@@ -1,7 +1,7 @@
 import React from 'react'
 import { IoLocationSharp } from "react-icons/io5";
-const ClubCard = ({ ClubName, ClubLocation, ClubLogo, ClubBg, player, match, founded }) => {
 
+const ClubCard = ({ ClubName, ClubLocation, ClubLogo, ClubBg, player, match, founded }) => {
 
     return (
         <div className="h-[400px] w-[310px] rounded-[20px] shadow-lg bg-white overflow-hidden border border-gray-200">
