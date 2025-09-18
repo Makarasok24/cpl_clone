@@ -4,20 +4,25 @@ import { IoLocationSharp } from "react-icons/io5";
 const ClubCard = ({ ClubName, ClubLocation, ClubLogo, ClubBg, player, match, founded }) => {
 
     return (
-        <div className="h-[400px] w-[310px] rounded-[20px] shadow-lg bg-white overflow-hidden border border-gray-200">
+        <div className="h-[400px] w-[310px] rounded-[20px] shadow-lg bg-white overflow-hidden border border-gray-200 group">
             <div className="relative h-[200px] rounded-t-[20px] flex justify-center items-center overflow-hidden">
                 <div
                     className="absolute inset-0 bg-no-repeat bg-cover bg-center blur-[2px]"
                     style={{ backgroundImage: `url('${ClubBg}')` }}
                 ></div>
-
-                <img src={ClubLogo} alt="" className="w-[80px] h-[80px] relative z-10" />
+            
+                <img src={ClubLogo} 
+                alt="" 
+                className="w-[80px] h-[80px] relative z-10 transition-transform duration-300 group-hover:scale-110" 
+                />
             </div>
 
             <div className="h-[200px] p-[20px]">
                 <div className="flex flex-col h-full justify-between">
                     <div>
-                        <p className="text-[16.5px] text-center font-semibold">{ClubName}</p>
+                        <a href="#" className="hover:text-red-500 hover">
+                            <p className="text-[16.5px] text-center font-bold">{ClubName}</p>
+                        </a>
                         <span className="flex justify-center items-center gap-2 text-[12px] text-gray-600">
                             <IoLocationSharp className="text-red-500" />
                             <p className="text-[13.5px]">{ClubLocation}</p>

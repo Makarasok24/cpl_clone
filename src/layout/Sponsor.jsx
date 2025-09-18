@@ -3,7 +3,7 @@ import React from 'react'
 const Sponsor = () => {
     return (
         <div className="h-[130px] w-full flex items-center justify-center ">
-            <div className="h-[70px] grid grid-cols-[210px_210px_83.6px_105px] gap-[10px]">
+            <div className="h-[70px] grid grid-cols-[210px_210px_83.6px_105px] gap-[10px] justify-center items-center">
                 <a  className="h-[70px]" href="https://www.facebook.com/metfone.closer" target="_blank">
                     <img src="https://www.cpl-cambodia.com/images/metfone.png" alt=""/>
                 </a>
