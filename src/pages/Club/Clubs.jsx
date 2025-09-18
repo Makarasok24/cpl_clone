@@ -104,7 +104,7 @@ const Clubs = () => {
   ]
 
   return (
-    <div className="w-full my-[30px] px-[90px]">
+    <div className="w-full my-[30px] px-[280px]">
       <div className="h-[120px] my-[50px] rounded-3xl text-[22px] font-bold text-shadow-blue-800 flex justify-center items-center bg-gradient-to-r from-[#f8f9fb] to-[#e8eef8]">
         Clubs of Cambodia Priemier Leauge 2025/26
       </div>
