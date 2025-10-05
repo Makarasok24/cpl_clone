@@ -3,6 +3,8 @@ import Layout from "./layout/Layout";
 import HomePage from "./pages/hompage/index";
 import Clubs from "./pages/Club/Clubs";
 import ClubDetail from "./pages/Club/ClubDetail";
+import PlayerDetail from "./pages/Club/PlayeDetail";
+
 const router = createBrowserRouter([
     {
         path: "/",
@@ -13,14 +15,17 @@ const router = createBrowserRouter([
                 element: <HomePage />
             },
             {
-                path: "/Clubs",
+                path: "/clubs",
                 element: <Clubs />
             },
             {
-                path: "/Clubs/ClubDetail",
+                path: "/clubs/clubDetail",
                 element: <ClubDetail />
             },
-            
+            {
+                path: "/clubs/players/:PlayerId",
+                element: <PlayerDetail />
+            }
 
         ]
     },

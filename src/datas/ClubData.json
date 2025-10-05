@@ -1,0 +1,112 @@
+[
+    {
+      "ClubId": 1,
+      "ClubName": "ANGKOR TIGER FC",
+      "ClubBg": "https://cpl.sgp1.cdn.digitaloceanspaces.com/stadium/small/1740561308.jpg",
+      "ClubLogo": "https://cpl.sgp1.cdn.digitaloceanspaces.com/logo/club/small/1732528836.png",
+      "ClubLocation": "Akihiro Sato Stadium",
+      "player": 0,
+      "match": 0,
+      "founded": 2015
+    },
+    {
+      "ClubId": 2,
+      "ClubName": "Boeung Ket FC",
+      "ClubBg": "https://cpl.sgp1.cdn.digitaloceanspaces.com/stadium/small/1705985563.png",
+      "ClubLogo": "https://cpl.sgp1.cdn.digitaloceanspaces.com/logo/club/small/1687428397.png",
+      "ClubLocation": "National Olympic Stadium",
+      "player": 0,
+      "match": 0,
+      "founded": 2012
+    },
+    {
+      "ClubId": 3,
+      "ClubName": "ISI Dangkor Senchey FC",
+      "ClubBg": "https://cpl.sgp1.cdn.digitaloceanspaces.com/stadium/small/1705985528.png",
+      "ClubLogo": "https://cpl.sgp1.cdn.digitaloceanspaces.com/logo/club/small/1687428460.png",
+      "ClubLocation": "AIA Stadium, KMH Park",
+      "player": 0,
+      "match": 0,
+      "founded": 2016
+    },
+    {
+      "ClubId": 4,
+      "ClubName": "Kirivong Sok Sen Chey FC",
+      "ClubBg": "https://cpl.sgp1.cdn.digitaloceanspaces.com/stadium/small/1705985678.png",
+      "ClubLogo": "https://cpl.sgp1.cdn.digitaloceanspaces.com/logo/club/small/1687428479.png",
+      "ClubLocation": "Kirivong Stadium",
+      "player": 0,
+      "match": 0,
+      "founded": 2007
+    },
+    {
+      "ClubId": 5,
+      "ClubName": "LIFE FC SIHUANOUKVILLE",
+      "ClubBg": "https://cpl.sgp1.cdn.digitaloceanspaces.com/stadium/small/1705983937.png",
+      "ClubLogo": "https://cpl.sgp1.cdn.digitaloceanspaces.com/logo/club/small/1692607772.png",
+      "ClubLocation": "Life Stadium",
+      "player": 0,
+      "match": 0,
+      "founded": 2022
+    },
+    {
+      "ClubId": 6,
+      "ClubName": "MOI KOMPONG DEWA FC",
+      "ClubBg": "https://cpl.sgp1.cdn.digitaloceanspaces.com/stadium/small/1705985693.png",
+      "ClubLogo": "https://cpl.sgp1.cdn.digitaloceanspaces.com/logo/club/small/1750926116.png",
+      "ClubLocation": "Prince Stadium",
+      "player": 0,
+      "match": 0,
+      "founded": 2025
+    },
+    {
+      "ClubId": 7,
+      "ClubName": "NAGAWORLD FC",
+      "ClubBg": "https://cpl.sgp1.cdn.digitaloceanspaces.com/stadium/small/1705985758.png",
+      "ClubLogo": "https://cpl.sgp1.cdn.digitaloceanspaces.com/logo/club/small/1687428492.png",
+      "ClubLocation": "Kampong Speu Stadium",
+      "player": 0,
+      "match": 0,
+      "founded": 2001
+    },
+    {
+      "ClubId": 8,
+      "ClubName": "PHNOM PENH CROWN FC",
+      "ClubBg": "https://cpl.sgp1.cdn.digitaloceanspaces.com/stadium/small/1705986452.png",
+      "ClubLogo": "https://cpl.sgp1.cdn.digitaloceanspaces.com/logo/club/small/1687428507.png",
+      "ClubLocation": "Smart RSN Stadium",
+      "player": 0,
+      "match": 0,
+      "founded": 2001
+    },
+    {
+      "ClubId": 9,
+      "ClubName": "PREAH KHAN REACH SVAY RIENG FC",
+      "ClubBg": "https://cpl.sgp1.cdn.digitaloceanspaces.com/stadium/small/1754711875.png",
+      "ClubLogo": "https://cpl.sgp1.cdn.digitaloceanspaces.com/logo/club/small/1687428521.png",
+      "ClubLocation": "Morodok Techo National Stadium",
+      "player": 0,
+      "match": 0,
+      "founded": 1997
+    },
+    {
+      "ClubId": 10,
+      "ClubName": "ROYAL CAMBODIAN ARMED FORCES FC",
+      "ClubBg": "https://cpl.sgp1.cdn.digitaloceanspaces.com/stadium/small/1705985595.png",
+      "ClubLogo": "https://cpl.sgp1.cdn.digitaloceanspaces.com/logo/club/small/1754618986.png",
+      "ClubLocation": "Army Stadium",
+      "player": 0,
+      "match": 0,
+      "founded": 2014
+    },
+    {
+      "ClubId": 11,
+      "ClubName": "VISAKHA FC",
+      "ClubBg": "https://cpl.sgp1.cdn.digitaloceanspaces.com/stadium/small/1705985693.png",
+      "ClubLogo": "https://cpl.sgp1.cdn.digitaloceanspaces.com/logo/club/small/1687428567.png",
+      "ClubLocation": "Prince Stadium",
+      "player": 0,
+      "match": 0,
+      "founded": 2016
+    }
+  ]
