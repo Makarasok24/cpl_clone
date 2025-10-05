@@ -2,7 +2,7 @@ import React from 'react'
 import { IoLocationSharp } from "react-icons/io5";
 import { Link } from 'react-router-dom';
 
-const ClubCard = ({ ClubName, ClubLocation, ClubLogo, ClubBg, player, match, founded }) => {
+const ClubCard = ({ClubName, ClubLocation, ClubLogo, ClubBg, player, match, founded }) => {
 
     return (
         <div className="h-[400px] w-[310px] rounded-[20px] shadow-lg bg-white overflow-hidden border border-gray-200 group">
@@ -21,9 +21,18 @@ const ClubCard = ({ ClubName, ClubLocation, ClubLogo, ClubBg, player, match, fou
             <div className="h-[200px] p-[20px]">
                 <div className="flex flex-col h-full justify-between">
                     <div>
-                        <Link to="/Clubs/ClubDetail" className="text-[16.5px] flex items-center justify-center font-bold hover hover:text-red-500">
-                            {ClubName}
-                        </Link>
+                        {ClubName === "ANGKOR TIGER FC" ? (
+                            <Link
+                                to="/clubs/clubDetail"
+                                className="text-[16.5px] flex items-center justify-center text-center font-bold hover:text-red-500"
+                            >
+                                {ClubName}
+                            </Link>
+                        ) : (
+                            <span className="text-[16.5px] flex items-center justify-center text-center font-bold hover:text-red-500">
+                                {ClubName}
+                            </span>
+                        )}
                         <span className="flex justify-center items-center gap-2 text-[12px] text-gray-600">
                             <IoLocationSharp className="text-red-500" />
                             <p className="text-[13.5px]">{ClubLocation}</p>
