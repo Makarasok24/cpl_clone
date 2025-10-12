@@ -9,10 +9,10 @@ const Clubs = () => {
         Clubs of Cambodia Priemier Leauge 2025/26
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-[30px] justify-center">
-        {clubs.map((club, index) => (
-          <ClubCard key={index} {...club} />
-        ))
-        }
+        {clubs.map((news, index) => (
+          <ClubCard key={index} {...news} />
+        ))}
+
       </div>
     </div>
   )
